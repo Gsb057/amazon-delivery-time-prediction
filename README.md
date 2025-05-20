@@ -30,30 +30,22 @@ How to Run This Project
 
 1. Clone or Download the Repo
 
-If on GitHub:
-
-git clone [https://github.com/your-username/amazon-delivery-time-prediction.git](https://github.com/your-username/amazon-delivery-time-prediction.git)
-cd amazon-delivery-time-prediction
-
-Or just download the ZIP and extract.
-
 2. Install Requirements
 
-pip install -r requirements.txt
+ -pip install -r requirements.txt
 
 3. Run the Full ML Pipeline (Optional)
 
-python src/data_preprocessing.py
-python src/feature_engineering.py
-python src/model_training.py
+ -python src/data_preprocessing.py
+ -python src/feature_engineering.py
+ -python src/model_training.py
 
-Skip these steps if you're only using the trained model (best_model.pkl).
+ Skip these steps if you're only using the trained model (best_model.pkl).
+ To download the trainded model : https://drive.google.com/drive/folders/1GWELlTSPZ_YC_k2kPgWXu-4EqqkFZZd1?usp=drive_link
 
 4. Launch the Streamlit App
 
-streamlit run app.py
-
-Then open your browser to [http://localhost:8501](http://localhost:8501)
+ -streamlit run app.py
 
 Features Implemented
 
